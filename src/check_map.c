@@ -6,7 +6,7 @@
 /*   By: hyecheon <hyecheon@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 21:36:41 by hyecheon          #+#    #+#             */
-/*   Updated: 2023/01/16 21:38:54 by hyecheon         ###   ########.fr       */
+/*   Updated: 2023/01/18 07:39:52 by hyecheon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,7 +97,6 @@ void	check_map_route(t_map *map, int i)
 		check_map_route(map, i + map->width);
 		check_map_route(map, i - 1);
 		check_map_route(map, i - map->width);
-		map->line[i] = '0';
 	}
 }
 
