@@ -1,7 +1,7 @@
-# 42cursus-so_long
+# So long 🎮
 
 ```
-git clone https://github.com/hyemch/42cursus-so_long.git
+git clone https://github.com/hyemch/So-long.git
 ```
 ```
 make
